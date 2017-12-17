@@ -1,0 +1,201 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, sans-serif;
+}
+
+body{
+	height: 100vh;
+	width: 100%;
+	padding: 2% 7%;
+	background-color: #EAEAEA;
+}
+
+li{
+	display: inline-block;
+}
+/*Seeing if having each "section" of the page have the same height helps give visual balance*/
+.container{
+	height: 230px;
+	position: relative;
+	width: 100%;
+}
+
+.center{
+	text-align: center;
+}
+
+#header{
+	height: 70px;
+	width: 100%;
+	position: relative;
+}
+
+.home-logo{
+	background-color: #4F2684;
+	position: absolute;
+}
+
+.logo{
+	height: 70px;
+	width: auto;
+	display: inline-block;
+}
+
+#nav-bar ul{
+	padding-top: 1%;
+	height: 35px;
+	width: 100%;
+	position: relative;
+	top: 15px;
+	padding-left: 40%;
+}
+
+#nav-bar li{
+	font-weight: bold;
+	margin-left: 4%;
+	color: #4F2684;
+	font-size: 16px;
+}
+
+#nav-bar li:hover{
+	cursor: pointer;
+}
+
+#sub-head{
+	height: 130px;
+	width: 100%;
+	margin-top: 5px;
+	position: relative;
+}
+
+#sub-head h1{
+	position: absolute;
+	font-size: 3em;
+	font-weight: bold;
+	color: #fff;
+	
+	padding-top: 10px;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	border-radius: 5px;
+	
+	background: 
+		no-repeat,
+		center,
+		linear-gradient(rgba(79, 38, 132, 0.5), rgba(79, 38, 132, 0.5)),
+		url(images/stock-photo-blur.jpg);
+	background-size: cover;
+} 
+
+.mid{
+	height: 500px;
+	margin-top: 80px;
+}
+
+.mid h1{
+	font-weight: bold;
+	font-size: 3.5em;
+	color: #fff;
+}
+
+.text-box{
+	color: #fff;
+	position: relative;
+	display: inline-block;
+	width: 49%;
+	height: 270px;
+	background-color: #4F2684;
+	border-radius: 5px;
+	margin-bottom: 80px;
+}
+
+.right {
+	float: right;
+}
+
+.mid a{
+	position: absolute;
+	right: 5px;
+	bottom: 0;
+	font-size: 1.5em;
+}
+
+.mid a:hover{
+	cursor: pointer;
+}
+
+.bottom{
+	margin-top: 125px;
+}
+
+.contact-info{
+	position: relative;
+	height: 200px;
+	width: 100%;
+	background-color: rgba(79, 38, 132, 0.5);
+}
+
+.contact-info h1{
+	text-align: left;
+	margin-left: 15%;
+	font-size: 2.25em;
+}
+
+.contact-info ul{
+	width: 270px;
+	margin-left: 15%;
+	margin-top: 10px;
+	text-align: left;
+	line-height: 25px;
+}
+
+.contact-info .img-container{
+	position: absolute;
+	margin-left: 55%;
+	top: 75px;
+}
+
+.contact-info img{
+	height:35px;
+	width: auto;
+}
+
+#customer-logos{
+	position: absolute;
+	height: 110px;
+	width: 100%;
+}
+
+#customer-logos li{
+	margin-left: 20%;
+	margin-top: 20px;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	height: 25px;
+	width: 100%;
+	font-size: 12px;
+	background-color: rgba(79, 38, 132, 0.5);
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+footer li{
+	margin-left: 10px;
+}
+
+footer li:hover{
+	color: #fff;
+	cursor: pointer;
+}
+
+footer p{
+	position: absolute;
+	right: 0;
+	bottom: 5px;
+}
